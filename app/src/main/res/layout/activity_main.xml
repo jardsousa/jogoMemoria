@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ProgressBar
+        android:id="@+id/tempo"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/reiniciar_botao" />
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="326dp"
+        android:layout_height="345dp"
+        android:columnCount="4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.552"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.378">
+
+
+        <ImageView
+            android:id="@+id/guga"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_margin="3dp"
+            android:src="@drawable/guga" />
+
+        <ImageView
+            android:id="@+id/berg"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_margin="3dp"
+            android:src="@drawable/edemberg" />
+
+        <ImageView
+            android:id="@+id/luiz"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_margin="3dp"
+            android:src="@drawable/luiz" />
+
+        <ImageView
+            android:id="@+id/lafa"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_margin="3dp"
+            android:src="@drawable/lafa" />
+
+        <ImageView
+            android:id="@+id/alexandre"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_margin="3dp"
+            android:src="@drawable/alexandre" />
+
+        <ImageView
+            android:id="@+id/heremita"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_margin="3dp"
+            android:src="@drawable/heremita" />
+
+        <ImageView
+            android:id="@+id/val"
+            android:layout_width="70dp"
+            android:layout_height="71dp"
+            android:layout_margin="3dp"
+            android:src="@drawable/val" />
+
+        <ImageView
+            android:id="@+id/heremita2"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_margin="3dp"
+            android:src="@drawable/heremita" />
+
+        <ImageView
+            android:id="@+id/alexandre2"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_margin="3dp"
+            android:src="@drawable/alexandre" />
+
+        <ImageView
+            android:id="@+id/guga2"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_margin="3dp"
+            android:src="@drawable/guga" />
+
+        <ImageView
+            android:id="@+id/luiz2"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_margin="3dp"
+            android:src="@drawable/luiz" />
+
+        <ImageView
+            android:id="@+id/val2"
+            android:layout_width="70dp"
+            android:layout_height="81dp"
+            android:layout_margin="3dp"
+            android:src="@drawable/val" />
+
+        <ImageView
+            android:id="@+id/berg2"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_margin="3dp"
+            android:src="@drawable/edemberg" />
+
+        <ImageView
+            android:id="@+id/lafa2"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_margin="3dp"
+            android:src="@drawable/lafa" />
+
+        <ImageView
+            android:id="@+id/max"
+            android:layout_width="80dp"
+            android:layout_height="71dp"
+            android:layout_margin="1dp"
+            android:src="@drawable/max" />
+
+        <ImageView
+            android:id="@+id/max2"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_margin="3dp"
+            android:src="@drawable/max" />
+
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/reiniciar_botao"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:text="Reiniciar"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gridLayout"
+        app:layout_constraintVertical_bias="0.166" />
+
+    <TextView
+        android:id="@+id/tentativas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tentativas: "
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/gridLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.152"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.549" />
+
+
+    />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
